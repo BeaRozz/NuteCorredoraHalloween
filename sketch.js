@@ -319,6 +319,7 @@ function spawner(){
                       break;
                         case 10: paint.addImage(paint10);
                         break;
+                        default: break;
     }
 
     paint.scale = 0.2;
@@ -328,7 +329,7 @@ function spawner(){
 
     //ajuste de profundidad
     paint.depth = nutella.depth;
-    paint.depth = paint.depth - 1;
+    paint.depth = paint.depth -1;
 
     //agregando a un grupo
     paintGroup.add(paint);
